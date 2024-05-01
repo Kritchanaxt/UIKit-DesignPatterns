@@ -7,23 +7,37 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
-
+class ViewController2: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet var tableView: UITableView!
+    
+    var data = [
+        Person2(firstName: "Dan", lastName: "Smith", gender: "man", age: 25, height: 144),
+        Person2(firstName: "Betty", lastName: "Smith", gender: "male", age: 25, height: 154),
+        Person2(firstName: "John", lastName: "Smith", gender: "man", age: 25, height: 184)
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        tableView.register(CustomTableViewCell.nib(), forCellReuseIdentifier: CustomTableViewCell.cellIdentifier)
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.cellIdentifier, for: indexPath) as! CustomTableViewCell
+        let model = data[indexPath.row]
+        cell.configure(with: CellViewModel(firstName: model.firstName, lastName: model.lastName))
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 
+   
 }

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+// Model
+
+struct Users: Codable {
+    let name: String
+}

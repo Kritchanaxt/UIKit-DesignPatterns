@@ -13,6 +13,21 @@
 		17DF6C8F2BE233A100F5E8F0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 17DF6C8E2BE233A100F5E8F0 /* Base */; };
 		17DF6C912BE233A300F5E8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DF6C902BE233A300F5E8F0 /* Assets.xcassets */; };
 		17DF6C942BE233A300F5E8F0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 17DF6C932BE233A300F5E8F0 /* Base */; };
+		17DF6CAA2BE2353F00F5E8F0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CA92BE2353F00F5E8F0 /* Presenter.swift */; };
+		17DF6CAC2BE2354D00F5E8F0 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CAB2BE2354D00F5E8F0 /* UsersViewController.swift */; };
+		17DF6CAE2BE2356400F5E8F0 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CAD2BE2356400F5E8F0 /* Users.swift */; };
+		17DF6CBB2BE2369A00F5E8F0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CBA2BE2369A00F5E8F0 /* Person.swift */; };
+		17DF6CBD2BE236BB00F5E8F0 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CBC2BE236BB00F5E8F0 /* ExampleView.swift */; };
+		17DF6CBF2BE236E000F5E8F0 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CBE2BE236E000F5E8F0 /* Controller.swift */; };
+		17DF6CCB2BE2391000F5E8F0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CCA2BE2391000F5E8F0 /* Model.swift */; };
+		17DF6CCD2BE239C400F5E8F0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CCC2BE239C400F5E8F0 /* ViewController2.swift */; };
+		17DF6CCF2BE23B5400F5E8F0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CCE2BE23B5400F5E8F0 /* ViewModel.swift */; };
+		17DF6CD12BE23DA200F5E8F0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CD02BE23DA200F5E8F0 /* CustomTableViewCell.swift */; };
+		17DF6CD32BE241F100F5E8F0 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CD22BE241F100F5E8F0 /* View.swift */; };
+		17DF6CD52BE2420600F5E8F0 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CD42BE2420600F5E8F0 /* Interactor.swift */; };
+		17DF6CD72BE2421200F5E8F0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CD62BE2421200F5E8F0 /* Presenter.swift */; };
+		17DF6CD92BE2422400F5E8F0 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CD82BE2422400F5E8F0 /* Entity.swift */; };
+		17DF6CDB2BE2423200F5E8F0 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6CDA2BE2423200F5E8F0 /* Routing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		17DF6C902BE233A300F5E8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17DF6C932BE233A300F5E8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17DF6C952BE233A300F5E8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DF6CA92BE2353F00F5E8F0 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		17DF6CAB2BE2354D00F5E8F0 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		17DF6CAD2BE2356400F5E8F0 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		17DF6CBA2BE2369A00F5E8F0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		17DF6CBC2BE236BB00F5E8F0 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		17DF6CBE2BE236E000F5E8F0 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		17DF6CCA2BE2391000F5E8F0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		17DF6CCC2BE239C400F5E8F0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		17DF6CCE2BE23B5400F5E8F0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		17DF6CD02BE23DA200F5E8F0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		17DF6CD22BE241F100F5E8F0 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		17DF6CD42BE2420600F5E8F0 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		17DF6CD62BE2421200F5E8F0 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		17DF6CD82BE2422400F5E8F0 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		17DF6CDA2BE2423200F5E8F0 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,10 @@
 		17DF6C862BE233A100F5E8F0 /* UIKit-Design-patterns */ = {
 			isa = PBXGroup;
 			children = (
+				17DF6CC42BE237CB00F5E8F0 /* VIPER */,
+				17DF6CC02BE2378900F5E8F0 /* MVVM */,
+				17DF6CAF2BE235A500F5E8F0 /* MVC */,
+				17DF6C9B2BE233D600F5E8F0 /* MVP */,
 				17DF6C872BE233A100F5E8F0 /* AppDelegate.swift */,
 				17DF6C892BE233A100F5E8F0 /* SceneDelegate.swift */,
 				17DF6C8B2BE233A100F5E8F0 /* ViewController.swift */,
@@ -65,6 +99,161 @@
 				17DF6C952BE233A300F5E8F0 /* Info.plist */,
 			);
 			path = "UIKit-Design-patterns";
+			sourceTree = "<group>";
+		};
+		17DF6C9B2BE233D600F5E8F0 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6C9E2BE2342100F5E8F0 /* Presenter */,
+				17DF6C9D2BE2341700F5E8F0 /* View */,
+				17DF6C9C2BE2340800F5E8F0 /* Model */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		17DF6C9C2BE2340800F5E8F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CAD2BE2356400F5E8F0 /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17DF6C9D2BE2341700F5E8F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CAB2BE2354D00F5E8F0 /* UsersViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17DF6C9E2BE2342100F5E8F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CA92BE2353F00F5E8F0 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		17DF6CAF2BE235A500F5E8F0 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CB92BE2367600F5E8F0 /* Controller */,
+				17DF6CB82BE2366100F5E8F0 /* View */,
+				17DF6CB42BE2361F00F5E8F0 /* Model */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		17DF6CB42BE2361F00F5E8F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CBA2BE2369A00F5E8F0 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17DF6CB82BE2366100F5E8F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CBC2BE236BB00F5E8F0 /* ExampleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17DF6CB92BE2367600F5E8F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CBE2BE236E000F5E8F0 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17DF6CC02BE2378900F5E8F0 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CC32BE237B500F5E8F0 /* ViewModel */,
+				17DF6CC22BE237AF00F5E8F0 /* View */,
+				17DF6CC12BE237A100F5E8F0 /* Model */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		17DF6CC12BE237A100F5E8F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CCA2BE2391000F5E8F0 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17DF6CC22BE237AF00F5E8F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CD02BE23DA200F5E8F0 /* CustomTableViewCell.swift */,
+				17DF6CCC2BE239C400F5E8F0 /* ViewController2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17DF6CC32BE237B500F5E8F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CCE2BE23B5400F5E8F0 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17DF6CC42BE237CB00F5E8F0 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CC92BE2380C00F5E8F0 /* Routing */,
+				17DF6CC82BE237FF00F5E8F0 /* Entity */,
+				17DF6CC72BE237EF00F5E8F0 /* Presenter */,
+				17DF6CC62BE237E400F5E8F0 /* Interactor */,
+				17DF6CC52BE237D700F5E8F0 /* View */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		17DF6CC52BE237D700F5E8F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CD22BE241F100F5E8F0 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17DF6CC62BE237E400F5E8F0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CD42BE2420600F5E8F0 /* Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		17DF6CC72BE237EF00F5E8F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CD62BE2421200F5E8F0 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		17DF6CC82BE237FF00F5E8F0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CD82BE2422400F5E8F0 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		17DF6CC92BE2380C00F5E8F0 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6CDA2BE2423200F5E8F0 /* Routing.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +327,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DF6CBF2BE236E000F5E8F0 /* Controller.swift in Sources */,
 				17DF6C8C2BE233A100F5E8F0 /* ViewController.swift in Sources */,
+				17DF6CD72BE2421200F5E8F0 /* Presenter.swift in Sources */,
 				17DF6C882BE233A100F5E8F0 /* AppDelegate.swift in Sources */,
+				17DF6CAC2BE2354D00F5E8F0 /* UsersViewController.swift in Sources */,
+				17DF6CCD2BE239C400F5E8F0 /* ViewController2.swift in Sources */,
+				17DF6CBD2BE236BB00F5E8F0 /* ExampleView.swift in Sources */,
+				17DF6CD92BE2422400F5E8F0 /* Entity.swift in Sources */,
+				17DF6CCB2BE2391000F5E8F0 /* Model.swift in Sources */,
+				17DF6CAA2BE2353F00F5E8F0 /* Presenter.swift in Sources */,
+				17DF6CBB2BE2369A00F5E8F0 /* Person.swift in Sources */,
+				17DF6CAE2BE2356400F5E8F0 /* Users.swift in Sources */,
+				17DF6CCF2BE23B5400F5E8F0 /* ViewModel.swift in Sources */,
 				17DF6C8A2BE233A100F5E8F0 /* SceneDelegate.swift in Sources */,
+				17DF6CDB2BE2423200F5E8F0 /* Routing.swift in Sources */,
+				17DF6CD52BE2420600F5E8F0 /* Interactor.swift in Sources */,
+				17DF6CD32BE241F100F5E8F0 /* View.swift in Sources */,
+				17DF6CD12BE23DA200F5E8F0 /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
