@@ -1,4 +1,3 @@
-# DesignPatterns
 
 ## MVC (Model-View-Controller)
 
