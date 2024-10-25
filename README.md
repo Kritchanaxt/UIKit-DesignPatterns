@@ -1,4 +1,4 @@
-# UIKit Design Patterns
+# UIKit Design Patterns 📂
 
 ## MVC (Model-View-Controller)
 
